@@ -44,7 +44,7 @@ function Income({ amount, setAmount }) {
   );
 }
 
-function Needs({ amount, setAmount }) {
+function Needs({ amount}) {
   return (
     <div>
       <Card sx={{ maxWidth: 345 }}>
@@ -73,7 +73,7 @@ function Needs({ amount, setAmount }) {
   );
 }
 
-function Wants({ amount, setAmount }) {
+function Wants({ amount}) {
   return (
     <div>
       <Card sx={{ maxWidth: 345 }}>
@@ -102,7 +102,7 @@ function Wants({ amount, setAmount }) {
   );
 }
 
-function Savings({ amount, setAmount }) {
+function Savings({ amount}) {
   return (
     <div>
       <Card sx={{ maxWidth: 345 }}>
